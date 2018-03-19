@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.wrap{
+    height: auto;
+    margin: 0 auto;
+}
+.header{
+    height: 80px;
+    float:left;
+    width: 100%;
+    background: black;
+}
+.menu{
+    float:right;
+    width: 600px;
+    height: 80px;
+}
+.menu_a{
+    color:white;
+    font-weight: bold;
+}
+.menu_a:hover{
+    color: #d3b704;
+}
+.menu_notice{
+    margin-right: 30px;
+}
+.logo_box{
+    width: 120px;
+    height: 40px;
+    float:left;
+}
+li{
+    float:right;
+    text-align: center;
+    padding-left : 30px;
+    margin-top: 25px;
+}
+.logo_img{
+    margin-left:20px; ;
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+}
+
+/* 메인

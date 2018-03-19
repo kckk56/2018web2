@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+/* 기본 틀 */
+
+.wrap{
+    height: auto;
+    margin: 0 auto;
+}
+
+/* 기본 틀 */
+
+/* header */
+.header{
+    height: 70px;
+    float:left;
+    background: black;
+    width: 100%;
+}
+.logo_box{
+    width: 120px;
+    height: 40px;
+    float:left;
+}
+.menu{
+    float:right;
+    width: 600px;
+    height: 70px;
+}
+.menu_a{
+    color:white;
+    font-weight: bold;
+}
+.menu_a:hover{
+    color: #d3b704;
+}
+.menu_notice{
+    margin-right: 30px;
+}
+li{
+    float:right;
+    text-align: center;
+    padding-left : 30px;
+    margin-top: 20px;
+}
+.logo_img{
+    margin-left:20px;
+    margin-top: 15px;
+    width: 120px;
+    height: 40px;
+}
+
+/* header */
+
+
+/* section */
+
+.section{
+    width: 100%;
+    height: 1540px;
+    float:left;
+}
+.left_img_box{
+    width:35%;
+    height: 1600px;
+    float:left;
+}
+.notice_img{
+    width: 100%;
+    height: 1600px;
+}
+.right_notice_box{
+    width: 65%;
+    height: 1540px;
+    float:left;
+}
+h1{
+    border-bottom: 1px solid black;
+    margin-left: 30px;
+    width: 90%;
+    margin-top: 30px;
+}
+h3{
+    margin-left: 30px;
+    margin-top: 70px;
+}
+.notice_sub_p{
+    width:1111px;
+    border-bottom: 1.5px solid gray;
+    margin-left: 30px;
+}
+/* section */
