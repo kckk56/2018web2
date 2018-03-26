@@ -21,8 +21,8 @@
     width: 100%;
 }
 .logo_box{
-    width: 120px;
-    height: 40px;
+    width: 175px;
+    height: 34px;
     float:left;
 }
 .menu{
@@ -49,8 +49,8 @@ li{
 .logo_img{
     margin-left:20px;
     margin-top: 15px;
-    width: 120px;
-    height: 40px;
+    width: 175px;
+    height: 34px;
 }
 
 /* header */

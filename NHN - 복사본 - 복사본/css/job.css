@@ -37,8 +37,8 @@ a{
     margin-right: 30px;
 }
 .logo_box{
-    width: 120px;
-    height: 40px;
+    width: 175px;
+    height: 34px;
     float:left;
 }
 li{
@@ -48,10 +48,10 @@ li{
     margin-top: 25px;
 }
 .logo_img{
-    margin-left:20px; ;
+    margin-left:20px;
     margin-top: 20px;
-    width: 120px;
-    height: 40px;
+    width: 175px;
+    height: 34px;
 }
 
 /* 메인

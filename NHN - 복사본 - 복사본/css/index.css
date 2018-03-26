@@ -1,11 +1,13 @@
 *{
     padding: 0;
-    list-style: none;
     margin: 0;
+    font-family: "Adobe 고딕 Std B";
 }
 a{
     text-decoration: none;
-    color:#000000;
+}
+li{
+    list-style: none;
 }
 .wrap{
     width: 1300px;
@@ -34,21 +36,20 @@ a{
     margin-right: 30px;
 }
 .logo_box{
-    width: 120px;
-    height: 40px;
+    width: 175px;
+    height: 34px;
     float:left;
 }
 li{
     float:right;
     text-align: center;
-    padding-left : 30px;
-    margin-top: 25px;
+    margin: 25px 0 0 30px;
 }
 .logo_img{
     margin-left:20px; ;
     margin-top: 20px;
-    width: 120px;
-    height: 40px;
+    width: 175px;
+    height: 34px;
 }
 .section{
     float:left;
@@ -64,17 +65,6 @@ li{
 }
 .notice_img_1{
     float:left;
-
-}
-.notice_img_2{
-    float:left;
-
-}
-.notice_img_3{
-    float:left;
-}
-.main_img{
-
 }
 .box_4{
     width: 600px;
@@ -103,8 +93,11 @@ li{
     color:white;
     text-align: center;
 }
-th{
-    border-bottom: 1px solid black;
+tr > td{
+    padding: 5px 2px 5px;
+}
+.job_td{
+    padding-top: 10px;
 }
 .box_4 > table {
     color:white;
@@ -113,6 +106,25 @@ th{
    float:left;
     height: 1218px;
 }
-th{
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.job_th{
     text-align: left;
+    font-size:22px;
+    padding: 10px 0 10px 10px;
+}
+.job_th2 {
+    float:right;
+   padding: 12px 10px 5px 0;
+}
+.job_tr{
+    border-bottom: 1px solid black;
+}
+.notice_a{
+    color:white;
+}
+.more_a{
+    color:black;
 }
