@@ -10,15 +10,18 @@ a{
     text-decoration: none;
     color:black;
 }
-
+li{
+    list-style: none;
+}
 .wrap{
+    width: 1300px;
     height: auto;
     margin: 0 auto;
 }
 .header{
     height: 80px;
     float:left;
-    width: 100%;
+    width: 1200px;
     background: black;
 }
 .menu{
@@ -54,4 +57,17 @@ li{
     height: 34px;
 }
 
-/* 메인
+/* 메인 */
+
+.section{
+    width: 1200px;
+    float:left;
+}
+.left_img_box{
+    width: 600px;
+    float:left;
+}
+.left_img{
+    width: 600px;
+    float:left;
+}

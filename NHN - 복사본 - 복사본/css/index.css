@@ -2,9 +2,10 @@
     padding: 0;
     margin: 0;
     font-family: "Adobe 고딕 Std B";
-}
-a{
     text-decoration: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 li{
     list-style: none;
@@ -126,5 +127,8 @@ table{
     color:white;
 }
 .more_a{
+    color:black;
+}
+tr > a{
     color:black;
 }
