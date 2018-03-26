@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: "Adobe 고딕 Std B";
@@ -7,10 +7,10 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-li{
+li {
     list-style: none;
 }
-.wrap{
+.wrap {
     width: 1300px;
     height: auto;
     margin: 0 auto;
@@ -26,92 +26,92 @@ li{
     width: 600px;
     height: 80px;
 }
-.menu_a{
+.menu_a {
     color:white;
     font-weight: bold;
 }
-.menu_a:hover{
+.menu_a:hover {
     color: #d3b704;
 }
-.menu_notice{
+.menu_notice {
     margin-right: 30px;
 }
-.logo_box{
+.logo_box {
     width: 175px;
     height: 34px;
     float:left;
 }
-li{
+li {
     float:right;
     text-align: center;
     margin: 25px 0 0 30px;
 }
-.logo_img{
+.logo_img {
     margin-left:20px; ;
     margin-top: 20px;
     width: 175px;
     height: 34px;
 }
-.section{
+.section {
     float:left;
     margin: 0 auto;
 }
-.main_img{
+.main_img {
     width: 1200px;
 }
-.notice_container{
+.notice_container {
     width: 1200px;
     margin: 0 auto;
     height: auto;
 }
-.notice_img_1{
+.notice_img_1 {
     float:left;
 }
-.box_4{
+.box_4 {
     width: 600px;
     height: 200px;
     background:gray;
     float:left;
 }
-.box_5{
+.box_5 {
     width: 600px;
     height: 200px;
     background: white;
     float:left;
 }
-.footer{
+.footer {
     float:left;
     background: #a1a1a1;
     height: 80px;
     width: 1200px;
 }
-.footer_nhn{
+.footer_nhn {
     color:white;
     text-align: center;
     margin-top: 20px;
 }
-.footer_copy{
+.footer_copy {
     color:white;
     text-align: center;
 }
-tr > td{
+tr > td {
     padding: 5px 2px 5px;
 }
-.job_td{
+.job_td {
     padding-top: 10px;
 }
 .box_4 > table {
     color:white;
 }
-.main_img_container{
-   float:left;
+.main_img_container {
+    float:left;
     height: 1218px;
 }
-table{
+table {
     width: 100%;
     border-collapse: collapse;
 }
-.job_th{
+.job_th {
     text-align: left;
     font-size:22px;
     padding: 10px 0 10px 10px;
@@ -120,15 +120,15 @@ table{
     float:right;
    padding: 12px 10px 5px 0;
 }
-.job_tr{
+.job_tr {
     border-bottom: 1px solid black;
 }
-.notice_a{
+.notice_a {
     color:white;
 }
-.more_a{
+.more_a {
     color:black;
 }
-tr > a{
+tr > a {
     color:black;
 }
