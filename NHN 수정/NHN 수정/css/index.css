@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Adobe 고딕 Std B";
+    text-decoration: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+.wrap {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.header {
+    height: 80px;
+    float: left;
+    width: 1200px;
+    background: black;
+}
+
+.menu {
+    float: right;
+    width: 600px;
+    height: 80px;
+}
+
+.menu_a {
+    color: white;
+    font-weight: bold;
+}
+
+.menu_a:hover {
+    color: #d3b704;
+}
+
+.menu_notice {
+    margin-right: 30px;
+}
+
+.logo_box {
+    width: 175px;
+    height: 34px;
+    float: left;
+}
+
+li {
+    float: right;
+    text-align: center;
+    margin: 25px 0 0 30px;
+}
+
+.logo_img {
+    margin: 20px 0 0 20px;
+    width: 175px;
+    height: 34px;
+}
+
+.section {
+    float: left;
+    margin: 0 auto;
+}
+
+.main_img {
+    width: 1200px;
+}
+
+.notice_container {
+    width: 1200px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.notice_img_1 {
+    float: left;
+}
+
+.box_4 {
+    width: 600px;
+    height: 200px;
+    background: gray;
+    float: left;
+}
+
+.box_5 {
+    width: 600px;
+    height: 200px;
+    background: white;
+    float: left;
+}
+
+.footer {
+    float: left;
+    background: #a1a1a1;
+    height: 80px;
+    width: 1200px;
+}
+
+.footer_nhn {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer_copy {
+    color: white;
+    text-align: center;
+}
+
+tr > td {
+    padding: 5px 2px 5px;
+}
+
+.job_td {
+    padding-top: 10px;
+}
+
+.box_4 > table {
+    color: white;
+}
+
+.main_img_container {
+    float: left;
+    height: 1218px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.job_th {
+    text-align: left;
+    font-size: 22px;
+    padding: 10px 0 10px 10px;
+}
+
+.job_th2 {
+    float: right;
+    padding: 12px 10px 5px 0;
+}
+
+.job_tr {
+    border-bottom: 1px solid black;
+}
+
+.notice_a {
+    color: white;
+}
+
+.more_a {
+    color: black;
+}
+
+tr > a {
+    color: black;
+}
