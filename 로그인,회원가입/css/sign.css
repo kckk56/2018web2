@@ -1,0 +1,75 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .sign {
+            width: 1000px;
+            margin: 0 auto;
+            height: 800px;
+        }
+
+        .item_id dt {
+            float: left;
+        }
+
+        .item_id dd {
+            float: left;
+        }
+
+        .item_pw dt {
+            float: left;
+        }
+
+        .item_pw dd {
+            float: left;
+        }
+
+        #sign_wrap {
+            width: 700px;
+            margin: 0 auto;
+        }
+
+        dt {
+            width: 200px;
+            height: 30px;
+        }
+
+        input {
+            width: 300px;
+            height: 30px;
+            border-radius: 3px;
+        }
+
+        .item_name dd {
+            float: left;
+        }
+
+        .item_name dt {
+            float: left;
+        }
+
+        .item_address dd {
+            float: left;
+        }
+
+        .item_address dt {
+            float: left
+        }
+
+        #sign_ok {
+            color: black;
+            width: 50px;
+            height: 30px;
+            font-family: 굴림;
+            background-color: white;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        dd,
+        dt {
+            margin-bottom: 20px;
+        }
