@@ -1,0 +1,119 @@
+/* 공통 */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+ /* */
+
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+.header {
+    width: 1000px;
+    height: 80px;
+}
+.menu li {
+    float:left;
+    border : 1px solid lightgray;
+    width: 80px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size:13px;
+}
+.menu {
+    padding: 24px 0 30px 0;
+}
+.section {
+    width: 1000px;
+    height: auto;
+}
+.footer {
+    width: 1000px;
+    height: auto;
+}
+.header_img_box {
+    width: 585px;
+    height: 84px;
+    float:left;
+}
+.main_img {
+    width: 220px;
+    height: auto;
+    float:left;
+    padding: 20px 0 20px 0;
+}
+.header_link {
+    float:left;
+    width: 200px;
+    height: 84px;
+}
+.header_link a {
+    padding: 10px 0 10px 0;
+}
+.header_serch_input {
+    float:left;
+    margin-top: 25px;
+}
+#serch_img {
+
+}
+#serch {
+    float:left;
+    height: 34px;
+    border: 1px solid gray;
+}
+.header_gnb {
+    float:left;
+    width: 1000px;
+    height: 44px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    clear:both;
+}
+.menu_link {
+    height: 44px;
+    display: block;
+    text-align: center;
+    width: 120px;
+    line-height: 44px;
+    float:left;
+}
+.nav{
+    width: 1000px;
+    height: 44px;
+    display: block;
+    float:left;
+}
+.big_menu{
+    float:left;
+}
+.menu_link:hover{
+    color: #25fdff;
+}
+.menu_link:hover {
+
+}
+.sub_menu_box{
+    width: 120px;
+    height: 500px;
+}
+.sub_menu_list{
+    text-align: center;
+    width: 120px;
+    height: 44px;
+    line-height: 44px;
+    float:left;
+    display: none;
+}
+
