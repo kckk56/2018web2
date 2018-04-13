@@ -35,6 +35,7 @@ a {
     padding: 24px 0 30px 0;
 }
 .section {
+    float:left;
     width: 1000px;
     height: auto;
 }
@@ -148,11 +149,35 @@ a {
     height: 170px;
 }
 .notice_header{
-    padding: 5px 0 0 5px;
-    width: 100%;
+    padding: 5px 0 0 0;
+    width: 650px;
     height: 40px;
     float:left;
+    border-bottom: 1px solid black;
 }
 .notice_area{
     float:left;
+    padding: 6px 5px 0 5px;
 }
+.home_area{
+    float:left;
+    padding: 6px 0 0 5px;
+}
+#more_img{
+    float:right;
+    padding: 5px 0 0 0;
+}
+.notice_bottom{
+    float:left;
+    width: 650px;
+    margin: 0 auto;
+    height: 130px;
+    padding : 5px 0 0 5px;
+}
+.board{
+    border: 1px solid #ebeef3;
+}
+.date{
+    text-align: center;
+}
+
