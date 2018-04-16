@@ -175,11 +175,11 @@ a {
 }
 
 .notice_header {
-    padding: 5px 0 0 0;
-    width: 650px;
+    padding: 5px 0 0 10px;
+    width: 645px;
     height: 40px;
     float: left;
-    border-bottom: 1px solid black;
+    background: white;
 }
 
 .notice_area {
@@ -199,15 +199,16 @@ a {
 
 .notice_bottom {
     float: left;
-    width: 650px;
+    width: 645px;
     margin: 0 auto;
     height: 130px;
-    padding: 5px 0 0 5px;
+    padding: 5px 0 0 10px;
+    background: white;
 }
 
 .board {
-    border: 1px solid #ebeef3;
     width: 650px;
+    float:left;
 }
 
 .date {
@@ -217,11 +218,61 @@ a {
 .img_slide_box_right {
     width: 340px;
     height: 400px;
-    float: left;
-    padding: 0 0 0 10px;
+    float: right;
+    margin: 0 0 0 10px;
 }
 
 .section_slide {
     width: 340px;
     height: 400px;
+}
+
+.calendar_box {
+    float:left;
+    width: 320px;
+    height: 230px;
+}
+.calendar_top {
+    float: left;
+    width: 100%;
+    height: 20px;
+    margin-top:30px;
+    text-align: center;
+}
+.runch {
+    float:left;
+    width: 320px;
+    height: 230px;
+}
+.calendar_date {
+    font-size:14px;
+}
+.calendar_middle {
+    float:left;
+    width: 100%;
+    height: 116px;
+}
+.today {
+    font-size: 92px;
+    line-height: 100px;
+    padding: 8px 0;
+    color:#0076b6;
+    text-align:center;
+}
+.prev_box {
+    float:left;
+    width: 105px;
+    height: 180px;
+    text-align: center;
+}
+.today_box {
+    float:left;
+    width: 110px;
+    height: 180px;
+}
+.next_box{
+    float:left;
+    width: 105px;
+    height: 180px;
+    text-align: center;
 }
