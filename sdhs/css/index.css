@@ -131,7 +131,6 @@ a {
     height: 500px;
     display: none;
 }
-
 .sub_menu_list {
     text-align: center;
     width: 120px;
@@ -219,6 +218,7 @@ a {
 
 .date {
     text-align: center;
+    padding: 5px 0 5px 0;
 }
 
 .img_slide_box_right {
