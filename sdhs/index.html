@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>서울디지텍고등학교</title>
     <link rel="stylesheet" href="css/index.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="./js/index.js"></script>
 </head>
 
 <body>
@@ -61,8 +62,12 @@
             </ul>
         </div>
         <div class="section">
-            <div class="slide_box">
-                <img src="img/slide_img.png" alt="slide_img" class="slide_img">
+            <div class="section_slide_box">
+            <ul class="slideshow">
+                <li><a href="#"><img src="img/slide_img.png" alt="slide_img" class="slide_img"></a></li>
+                <li></li>
+                <li></li>
+            </ul>
             </div>
             <div class="notice_box">
                 <div class="notice_header">
@@ -104,10 +109,13 @@
             <div class="img_slide_box_right">
                 <a href="#"><img src="img/section_slide_img_1.png" alt="slide_img" class="section_slide"></a>
             </div>
+            <div class="window">
+                <a href="#"><img src="img/section_slide_img_1.png" alt="slide_layer_img" class="close"></a>
+            </div>
             <div class="calendar_box">
                 <div class="calendar_top">
                     <span class="calendar_date">
-                        2018.04.
+                        <!--2018.04.-->
                     </span>
                 </div>
                 <div class="calendar_middle">
@@ -116,7 +124,7 @@
                     </div>
                     <div class="today_box">
                         <p class="today">
-                            23
+
                         </p>
                     </div>
                     <div class="next_box">
@@ -125,18 +133,21 @@
                     <div class="title_box">
                         <p>교육여행(2학년), 취업캠프(3학년)<img src="img/index_btn_more.png" alt="btn_moere" class="btn_more"></p>
                     </div>
-                    <div class="title_box" onclick="a();">
+                    <div class="title_box">
                         <p>수련회(1학년)<img src="img/index_btn_more.png" alt="btn_moere" class="btn_more"></p>
                     </div>
                 </div>
             </div>
             <div class="runch">
-
+                <li><h3>오늘의 급식</h3><a href="#"><img src="img/index_btn_more.png" alt="btn_more" class="btn_more"></a></li>
+            <img src="http://www.sdh.hs.kr/design/template/template029/images/index_board_mlsv_05/main_school_menu_thumbnail.jpg" alt="#" class="runch_img">
             </div>
         </div>
-        <div class="footer_top">
-
-        </div>
+    </div>
+    <div class="footer_box">
+            <div class="footer_top">
+                <img src="http://www.sdh.hs.kr/dggb/module/file/selectImageView.do?at000000chfileId=182125&fileSn=0.png" alt="">
+            </div>
     </div>
 </body>
 </html>
