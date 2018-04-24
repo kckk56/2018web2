@@ -165,7 +165,8 @@ a {
 .notice_box {
     float: left;
     width: 650px;
-    height: 170px;
+    height: 190px;
+    border: 1px solid #e0e0e0;
 }
 
 .notice_header {
@@ -179,6 +180,8 @@ a {
 .notice_area {
     float: left;
     padding: 6px 5px 0 5px;
+    color:#0076b6;
+    font-weight: bold;
 }
 
 .notice_area > h3,
@@ -189,6 +192,7 @@ a {
 .home_area {
     float: left;
     padding: 6px 0 0 5px;
+    font-weight: bold;
 }
 
 #more_img {
@@ -200,13 +204,13 @@ a {
     float: left;
     width: 645px;
     margin: 0 auto;
-    height: 130px;
+    height: 10px;
     padding: 5px 0 0 10px;
     background: white;
 }
 
 .board {
-    width: 650px;
+    width: 639px;
     float: left;
 }
 
@@ -323,26 +327,36 @@ a {
     font-size:16px;
 }
 .section_slide_box {
+    float:left;
     width: 100%;
 }
 .runch_img {
     padding-top: 15px;
 }
 .footer_box {
-    margin-top:30px;
     float:left;
     width: 100%;
     height: 130px;
     background: #e5e6e8;
+    margin: 30px 0 auto;
 }
 .footer_top {
-    float:left;
-    width: 100%;
+    width: 1000px;
+    height: 130px;
+    margin: 0 auto;
 }
 
 .window {
     display: none;
     background: #ffffff;
-    height: 200px;
+    width: 268px;
+    height: 130px;
     z-index: 99999;
+    position: fixed;
+}
+.footer_img_box {
+    width: 220px;
+    height: 130px;
+    float:left;
+    padding: 20px 0 0 0 ;
 }

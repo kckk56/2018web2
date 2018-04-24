@@ -1,4 +1,6 @@
 $(document).ready(function () {
+    var b=$('.board');
+    $(b[1]).css({'display':'none'});
     var dt = new Date();
     var year=dt.getFullYear();
     var month= dt.getMonth()+1;
@@ -53,16 +55,34 @@ $(document).ready(function () {
         });
 
     /* prev */
-    function window_mask(){
-        //화면의 높이와 너비를 변수로 만듬.
-        var  maskHeight = $(document).height();
-        var  maskWidth = $(window).width();
-        //가운데에 넣기
+    $('.runch_img').on('click',function () {
+
+        var left = ( $(window).scrollLeft() + ( $(window).width() - $('.window').width()) / 2 );
+        var top = ( $(window).scrollTop() + ( $(window).height() - $('.window').height()) / 2 );
+
+        // css 변경
+        $('.window').css({'left':left,'top':top});
+        $('.window').fadeIn();
+    });
+    $(window).resize(function () {
         var left = ( $(window).scrollLeft() + ( $(window).width() - $('.window').width()) / 2 );
         var top = ( $(window).scrollTop() + ( $(window).height() - $('.window').height()) / 2 );
         // css 변경
-        $('.window').css({'left':left,'top':top,"position":'absolute'});
-        //레이어 띄우기
-        $(".window").show();
-    }
+        $('.window').css({'left':left,'top':top});
+    });
+    $(".close").on('click',function () {
+        $('.window').fadeOut();
+    });
+    $('.notice_area').on('click',function () {
+        $('.notice_area').css("color", "#0076b6");
+        $('.home_area').css("color", "black");
+        $(b[0]).css("display", "table");
+        $(b[1]).css("display", "none");
+    });
+    $('.home_area').on('click',function () {
+        $('.home_area').css("color", "#0076b6");
+        $('.notice_area').css("color", "black");
+        $(b[0]).css("display", "none");
+        $(b[1]).css("display", "table");
+    });
 });
