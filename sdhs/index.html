@@ -28,7 +28,7 @@
         <div class="header_gnb">
             <ul class="nav">
                 <li class="big_menu">
-                    <a href="#" class="menu_link">학교소개</a>
+                    <a href="#" class="menu_link" class="menu_link_school">학교소개</a>
                     <ul class="sub_menu_box">
                         <li class="sub_menu_list">
                             <a href="#">야</a>
@@ -63,20 +63,16 @@
         </div>
         <div class="section">
             <div class="section_slide_box">
-            <ul class="slideshow">
-                <li><a href="#"><img src="img/slide_img.png" alt="slide_img" class="slide_img"></a></li>
-                <li></li>
-                <li></li>
-            </ul>
+                <ul class="slideshow">
+                    <li><a href="#"><img src="img/slide_img.png" alt="slide_img" class="slide_img"></a></li>
+                    <li></li>
+                    <li></li>
+                </ul>
             </div>
             <div class="notice_box">
                 <div class="notice_header">
-                    <a href="#" class="notice_area">
-                        <h3>공지사항</h3>
-                    </a>
-                    <a href="#" class="home_area">
-                        <h3>가정통신문</h3>
-                    </a>
+                    <h3 class="notice_area">공지사항</h3>
+                    <h3 class="home_area">가정통신문</h3>
                     <input type="image" src="img/index_btn_more.gif" name="btn_more" onclick="" id="more_img">
                 </div>
                 <div class="notice_bottom">
@@ -106,26 +102,26 @@
                     </table>
                     <table class="board">
                         <tbody>
-                        <tr>
-                            <td><a href="#">앙기모띠</a></td>
-                            <td class="date"> 2018-04-04</td>
-                        </tr>
-                        <tr>
-                            <td><a href="#">2018학년도 국내외 취업상담사 채용</a></td>
-                            <td class="date">2018-04-04</td>
-                        </tr>
-                        <tr>
-                            <td><a href="#">학부모 총회 행사진행</a></td>
-                            <td class="date">2018-03-23</td>
-                        </tr>
-                        <tr>
-                            <td><a href="#">2018학년도 교무행정지원사 채용 공고</a></td>
-                            <td class="date">2018-03-22</td>
-                        </tr>
-                        <tr>
-                            <td><a href="#">산학일체형 도제학교 행정요원 채용 공고(긴급)</a></td>
-                            <td class="date">2018-03-22</td>
-                        </tr>
+                            <tr>
+                                <td><a href="#">가통</a></td>
+                                <td class="date"> 2018-04-04</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">2018학년도 국내외 취업상담사 채용</a></td>
+                                <td class="date">2018-04-04</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">학부모 총회 행사진행</a></td>
+                                <td class="date">2018-03-23</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">2018학년도 교무행정지원사 채용 공고</a></td>
+                                <td class="date">2018-03-22</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">산학일체형 도제학교 행정요원 채용 공고(긴급)</a></td>
+                                <td class="date">2018-03-22</td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
@@ -134,7 +130,7 @@
                 <a href="#"><img src="img/section_slide_img_1.png" alt="slide_img" class="section_slide"></a>
             </div>
             <div class="window">
-                <a href="#"><img src="http://www.sdh.hs.kr/design/template/template029/images/index_board_mlsv_05/main_school_menu_thumbnail.jpg" alt="slide_layer_img" class="close"></a>
+                <img src="http://www.sdh.hs.kr/design/template/template029/images/index_board_mlsv_05/main_school_menu_thumbnail.jpg" alt="slide_layer_img" class="close">
             </div>
             <div class="calendar_box">
                 <div class="calendar_top">
@@ -144,7 +140,7 @@
                 </div>
                 <div class="calendar_middle">
                     <div class="prev_box">
-                        <a href="#" id="prev"><img src="img/index_calendar_prev.png" alt="index_calendar_prev" class="calendar_prev" onmouseover="this.src='img/index_calendar_prev_over.png'", onmouseout="this.src='img/index_calendar_prev.png'"></a>
+                    <img src="img/index_calendar_prev.png" alt="index_calendar_prev" class="calendar_prev" id="prev" onmouseover="this.src='img/index_calendar_prev_over.png'", onmouseout="this.src='img/index_calendar_prev.png'">
                     </div>
                     <div class="today_box">
                         <p class="today">
@@ -152,7 +148,7 @@
                         </p>
                     </div>
                     <div class="next_box">
-                        <a href="#" id="next"><img src="img/index_calendar_next.png" alt="next" class="calendar_next" onmouseover="this.src='img/index_calendar_next_over.png'", onmouseout="this.src='img/index_calendar_next.png'"></a>
+                       <img src="img/index_calendar_next.png" alt="next" class="calendar_next" id="next" onmouseover="this.src='img/index_calendar_next_over.png'", onmouseout="this.src='img/index_calendar_next.png'">
                     </div>
                     <div class="title_box">
                         <p>교육여행(2학년), 취업캠프(3학년)<img src="img/index_btn_more.png" alt="btn_moere" class="btn_more"></p>
@@ -163,18 +159,19 @@
                 </div>
             </div>
             <div class="runch">
-                <li><h3>오늘의 급식</h3><a href="#"><img src="img/index_btn_more.png" alt="btn_more" class="btn_more"></a></li>
-                <a href="#"><img src="http://www.sdh.hs.kr/design/template/template029/images/index_board_mlsv_05/main_school_menu_thumbnail.jpg" alt="#" class="runch_img"></a>
+                <li>
+                    <h3>오늘의 급식</h3><a href="#"><img src="img/index_btn_more.png" alt="btn_more" class="btn_more"></a></li>
+                <img src="http://www.sdh.hs.kr/design/template/template029/images/index_board_mlsv_05/main_school_menu_thumbnail.jpg" alt="#" class="runch_img">
             </div>
         </div>
     </div>
     <div class="footer_box">
-            <div class="footer_top">
-                <div class="footer_img_box">
-                    <img src="./img/index_logo.png" alt="logo_img" class="footer_img">
-                </div>
-
+        <div class="footer_top">
+            <div class="footer_img_box">
+                <img src="./img/index_logo.png" alt="logo_img" class="footer_img">
             </div>
+
+        </div>
     </div>
 </body>
 </html>
