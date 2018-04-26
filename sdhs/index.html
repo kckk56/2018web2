@@ -6,9 +6,10 @@
     <link rel="stylesheet" href="css/index.css">
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script src="./js/index.js"></script>
+    <script src="./js/section_slide.js"></script>
 </head>
 
-<body>
+<body ondragstart='return false' onselectstart='return false'>
     <div class="wrap">
         <div class="header">
             <div class="header_img_box">
@@ -62,11 +63,11 @@
             </ul>
         </div>
         <div class="section">
-            <div class="section_slide_box">
-                <ul class="slideshow">
+            <div class="slide">
+                <ul class="slide_ul">
                     <li><a href="#"><img src="img/slide_img.png" alt="slide_img" class="slide_img"></a></li>
-                    <li></li>
-                    <li></li>
+                    <li><a href="#"><img src="img/slide_img2.png" alt="slide_img2" class="slide_img2"></a></li>
+                    <li><a href="#"><img src="img/slide_img3.jpg" alt="slide_img3" class="slide_img3"></a></li>
                 </ul>
             </div>
             <div class="notice_box">
@@ -166,11 +167,13 @@
         </div>
     </div>
     <div class="footer_box">
-        <div class="footer_top">
+        <div class="footer_gnb">
             <div class="footer_img_box">
                 <img src="./img/index_logo.png" alt="logo_img" class="footer_img">
             </div>
-
+            <div class="footer_copy_right">
+                <span>Copyright (c) 2007 서울디지텍고등학교. All rights reserved.</span>
+            </div>
         </div>
     </div>
 </body>

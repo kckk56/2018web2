@@ -8,8 +8,12 @@
     box-sizing: border-box;
 }
 
-li {
+li,ul{
     list-style: none;
+}
+
+img {
+    max-width: 100%;
 }
 
 a {
@@ -18,7 +22,7 @@ a {
 }
 
 body {
-    user-select: none;
+    min-width: 1000px;
 }
 /* */
 
@@ -146,7 +150,7 @@ body {
     z-index: 9999;
 }
 
-.slideshow {
+.slide_ul {
     width: 100%;
     height: 280px;
     float: left;
@@ -155,7 +159,7 @@ body {
 
 .slide_img {
     padding: 5px 0 5px 0;
-    width: 100%;
+    width: 1000px;
     height: 270px;
     float: left;
     position: relative;
@@ -163,7 +167,7 @@ body {
 
 .slide_img2 {
     padding: 5px 0 5px 0;
-    width: 100%;
+    width: 1000px;
     height: 270px;
 }
 
@@ -334,9 +338,25 @@ body {
     font-size: 16px;
 }
 
-.section_slide_box {
+.slide {
     float: left;
-    width: 100%;
+    width: 1000px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    height: 270px;
+}
+.slide_ul {
+    display: block;
+}
+
+.slide_ul > li {
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 10;
+    display:block;
 }
 
 .runch_img {
@@ -352,7 +372,7 @@ body {
     margin: 30px 0 auto;
 }
 
-.footer_top {
+.footer_gnb {
     width: 1000px;
     height: 130px;
     margin: 0 auto;
@@ -368,7 +388,7 @@ body {
 }
 
 .footer_img_box {
-    width: 220px;
+    width: 300px;
     height: 130px;
     float: left;
     padding: 20px 0 0 0;
@@ -387,4 +407,51 @@ body {
 }
 .menu_link_school:hover > .sub_menu_list {
     display: block;
+}
+.footer_copy_right {
+    float:left;
+    width: 700px;
+    height: 130px;
+    padding: 20px 0 0 0 ;
+}
+.footer_copy_right > span {
+    line-height: 44px;
+    font-size: 18px;
+    font-weight: bold;
+    color:#646464;
+}
+.slide_img3{
+    width: 1000px;
+    height: 270px;
+}
+        /*슬라이드 버튼 */
+.slide_btn >li{
+    float: left;
+    margin:0 5px 5px 0;
+}
+
+.slide_btn > li > a{
+    display:block;
+    width: 14px;
+    height:14px;
+    background: url(../img/spr.png) -24px -125px;
+    text-indent: -999em;
+}
+.slide_btn > li > a.active{
+    background-position: 0 -126px;
+}
+
+.slide_btn{
+    z-index:100;
+    position:absolute;
+    right: 0; bottom:0;
+}
+
+.slide_btn:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.slide_btn{
+    *zoom:1;
 }
