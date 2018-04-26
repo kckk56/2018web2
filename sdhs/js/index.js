@@ -85,5 +85,5 @@ $(document).ready(function () {
         $(b[0]).css("display", "none");
         $(b[1]).css("display", "table");
     });
-
+        
 });

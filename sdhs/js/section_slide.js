@@ -35,7 +35,7 @@ function autoplay(){
 	$('.slide_btn > li > a').removeClass('active');
 	$('.slide_btn > li > a').eq(current).addClass('active');
 }
-setInterval(autoplay,9000);//반복
+setInterval(autoplay,4000);//반복
 
 //버튼 클릭시 호출되는 함수
 function slide_stop(){
