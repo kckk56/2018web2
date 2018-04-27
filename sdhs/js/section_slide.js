@@ -1,4 +1,4 @@
-﻿// JavaScript Document
+// JavaScript Document
 
 
 $(document).ready(function() {
@@ -46,6 +46,7 @@ function slide_stop(){
 		$('.slide_ul > li').eq(fade_idx).fadeIn(400);
 		$('.slide_btn > li > a').removeClass('active');
 		$(this).addClass('active');
-
 	}
+     
+
 });

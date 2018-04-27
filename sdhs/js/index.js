@@ -59,11 +59,25 @@ $(document).ready(function () {
 
         var left = ( $(window).scrollLeft() + ( $(window).width() - $('.window').width()) / 2 );
         var top = ( $(window).scrollTop() + ( $(window).height() - $('.window').height()) / 2 );
+        
+        $(".mask").css({"display":"block"});
+        $(".mask").fadeIn(1000);
 
         // css 변경
         $('.window').css({'left':left,'top':top});
         $('.window').fadeIn();
     });
+        
+    $(".close").on('click',function(){
+        $(".mask").css({"display":"none"});
+    });
+        //마스크 클릭시 사라짐
+    $(".mask").on('click',function(){
+        $(".mask").css({"display":"none"});
+        $(".close").css({"display":"none"});
+        $(".window").css({"display" : "none"});
+    });
+    
     $(window).resize(function () {
         var left = ( $(window).scrollLeft() + ( $(window).width() - $('.window').width()) / 2 );
         var top = ( $(window).scrollTop() + ( $(window).height() - $('.window').height()) / 2 );
