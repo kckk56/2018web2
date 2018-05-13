@@ -8,6 +8,21 @@ $(document).ready(function () {
     var length=new Date(year, month, 0).getDate();
     console.log(length);
 
+    /* 마우스 엔터, 리브_next*/
+    $(".calendar_next").mouseenter(function () {
+        $(".calendar_next").attr('src','img/index_calendar_next_over.png');
+    });
+    $(".calendar_next").mouseleave(function () {
+        $(".calendar_next").attr('src','img/index_calendar_next.png');
+    });
+
+    /* 마우스 엔터, 리브_prev*/
+    $(".calendar_prev").mouseenter(function () {
+        $(".calendar_prev").attr('src','img/index_calendar_prev_over.png');
+    });
+    $(".calendar_prev").mouseleave(function () {
+       $(".calendar_prev").attr('src','img/index_calendar_prev.png');
+    });
 
     /* next */
 
@@ -73,9 +88,8 @@ $(document).ready(function () {
     });
         //마스크 클릭시 사라짐
     $(".mask").on('click',function(){
-        $(".mask").css({"display":"none"});
-        $(".close").css({"display":"none"});
-        $(".window").css({"display" : "none"});
+        $(".mask").fadeOut();
+        $(".window").fadeOut();
     });
     
     $(window).resize(function () {
@@ -85,8 +99,10 @@ $(document).ready(function () {
         $('.window').css({'left':left,'top':top});
     });
     $(".close").on('click',function () {
+        $('.mask').fadeOut();
         $('.window').fadeOut();
     });
+
     $('.notice_area').on('click',function () {
         $('.notice_area').css("color", "#0076b6");
         $('.home_area').css("color", "black");

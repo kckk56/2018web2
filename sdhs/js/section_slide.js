@@ -21,7 +21,9 @@ $(document).ready(function() {
 
 	$('.slide_btn > li > a').first().addClass('active');	
 	$('.slide_btn > li > a').on('click' , slide_stop);
-	
+
+
+
 //자동 슬라이드 함수
 function autoplay(){
 	
@@ -36,6 +38,8 @@ function autoplay(){
 	$('.slide_btn > li > a').eq(current).addClass('active');
 }
 setInterval(autoplay,4000);//반복
+
+
 
 //버튼 클릭시 호출되는 함수
 function slide_stop(){

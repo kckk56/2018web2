@@ -17,7 +17,6 @@ img {
     max-width: 100%;
 }
 
-
 a {
     text-decoration: none;
     color: black;
@@ -132,6 +131,8 @@ body {
     width: 1000px;
     height: 44px;
     float: left;
+    position: relative;
+    z-index: 50;
 }
 
 .nav > .big_menu {
@@ -146,12 +147,11 @@ body {
     width: 120px;
     height: 0px;
     overflow: hidden;
-    float:left;
+    transition: 1.3s ease;
 }
 
-.nav > .big_menu:hover > .sub_menu_box {
-    transition: 1.3s ease;
-    height: 300px;
+.big_menu:hover > .sub_menu_box {
+    height: 284px;
 }
 
 .nav > .big_menu > .sub_menu_box > .sub_menu_list {
@@ -161,6 +161,9 @@ body {
     background: white;
     color: black;
 }
+/*.nav > .big_menu  > .sub_menu_list {*/
+    /*background: black;*/
+/*}*/
 
 .slide_ul {
     width: 100%;
@@ -437,9 +440,8 @@ body {
     padding: 20px 0 0 0;
 }
 
-.footer_copy_right > span {
-    line-height: 44px;
-    font-size: 18px;
+.footer_copy_right > p {
+    font-size: 14px;
     font-weight: bold;
     color: #646464;
 }
