@@ -1,0 +1,154 @@
+/* 공통 */
+* {
+    margin: 0;
+    padding: 0;
+}
+li,ul {
+    list-style: none;
+}
+.img_wrap {
+    width: 648px;
+    height: 818px;
+    position: relative;
+    background: url("../img/bg_stadium.png")
+    no-repeat;
+}
+.top_line {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    float:left;
+}
+.bottom_line {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    float: left;
+}
+/* 공통 */
+
+/* 위쪽 선수 */
+.top_line > .circle {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border : 1px solid white;
+    background: red;
+    float:left;
+    position: absolute;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.num {
+    line-height: 56px;
+}
+#top_circle_1 {
+    top:60px;
+    left:305px;
+}
+#top_circle_2 {
+    top:230px;
+    left:70px;
+}
+#top_circle_3 {
+    top: 230px;
+    left:380px;
+}
+#top_circle_4 {
+    top: 315px;
+    left: 300px;
+}
+#top_circle_5 {
+    top:315px;
+    left:500px;
+}
+#top_circle_6 {
+    top:230px;
+    left:530px;
+}
+#top_circle_7 {
+    top: 148px;
+    left: 300px;
+}
+#top_circle_8 {
+    top: 148px;
+    left: 85px;
+}
+#top_circle_9 {
+    top: 230px;
+    left: 220px;
+}
+#top_circle_10 {
+    top:148px;
+    left:505px;
+}
+#top_circle_11 {
+    top: 315px;
+    left:100px;
+}
+/* 위쪽 선수 */
+
+/* 아래쪽 선수 */
+.bottom_line > .bottom_circle {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border:1px solid white;
+    background: #2d2d2d;
+    color:white;
+    float:left;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    top: 35px;
+}
+.bottom_num {
+    line-height: 56px;
+}
+
+#bottom_circle_1 {
+    top:290px;
+    left:305px;
+}
+#bottom_circle_2 {
+    top: 35px;
+    left: 300px;
+}
+#bottom_circle_3 {
+    left:100px;
+}
+#bottom_circle_4 {
+    left: 500px;
+}
+#bottom_circle_5 {
+    top: 120px;
+    left: 70px;
+}
+#bottom_circle_6 {
+    top: 120px;
+    left:380px;
+}
+#bottom_circle_7 {
+    top: 120px;
+    left:530px;
+}
+#bottom_circle_8 {
+    top: 120px;
+    left: 220px;
+}
+#bottom_circle_9 {
+    top: 210px;
+    left: 85px;
+}
+#bottom_circle_10 {
+    top: 210px;
+    left: 300px;
+}
+#bottom_circle_11 {
+    top:210px;
+    left:505px;
+}
+/* 위쪽 선수*/
