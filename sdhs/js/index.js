@@ -24,6 +24,19 @@ $(document).ready(function () {
        $(".calendar_prev").attr('src','img/index_calendar_prev.png');
     });
 
+    $(".next_btn").mouseenter(function () {
+        $(".next_btn").attr('src','/img/main_slide_btn_next_over.png');
+    });
+    $(".next_btn").mouseleave(function () {
+        $(".next_btn").attr('src','/img/main_slide_btn_next.png');
+    });
+
+    $(".prev_btn").mouseenter(function () {
+       $(".prev_btn").attr('src','/img/main_slide_btn_prev_over.png');
+    });
+    $(".prev_btn").mouseleave(function () {
+       $(".prev_btn").attr('src','/img/main_slide_btn_prev.png');
+    });
     /* next */
 
     $('.calendar_date').text(year+'.0'+month);

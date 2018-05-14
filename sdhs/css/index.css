@@ -1,26 +1,14 @@
 /* 공통 */
 
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 12px;
-    box-sizing: border-box;
-}
+* { margin: 0; padding: 0; border: 0;font-size: 12px; box-sizing: border-box; }
 
-li,
-ul {
-    list-style: none;
-}
+li, ul{ list-style: none; }
 
 img {
     max-width: 100%;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
+a {text-decoration: none; color: black;}
 
 body {
     min-width: 1000px;
@@ -56,6 +44,7 @@ body {
     float: left;
     width: 1000px;
     height: auto;
+    position: relative;
 }
 
 .footer {
@@ -495,3 +484,29 @@ body {
     display: none;
     cursor: pointer;
 }
+.next_btn {
+    background: url("../img/main_slide_btn_next.png")
+    no-repeat;
+    position: absolute;
+    display: block;
+    right: 0px;
+    top:120px;
+    z-index: 500;
+    width: 34px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.prev_btn {
+    background: url("../img/main_slide_btn_prev.png")
+    no-repeat;
+    position: absolute;
+    display: block;
+    right: 960px;
+    top:110px;
+    z-index: 9999;
+    width: 34px;
+    height: 45px;
+    cursor: pointer;
+}
+

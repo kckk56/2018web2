@@ -23,7 +23,6 @@ $(document).ready(function() {
 	$('.slide_btn > li > a').on('click' , slide_stop);
 
 
-
 //자동 슬라이드 함수
 function autoplay(){
 	
@@ -54,3 +53,6 @@ function slide_stop(){
      
 
 });
+
+//버튼 클릭시 왼,우로 넘어가기
+
